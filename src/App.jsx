@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import logo from "../src/assets/logo.svg";
 import menu from "../src/assets/menu.svg";
 import hero from "../src/assets/hero.jpg";
+import destinations from "./assets/data";
+import Destination from './Components/Destination';
 import "./App.css";
 
 function App() {
@@ -50,6 +52,24 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="max-w-lg lg:max-w-7xl mx-auto mt-14">
+        <div className="flex flex-col mb-10 text-center">
+          <h2 className="text-2xl font-semibold tracking-tight text-gray-600 mb-1">
+            Popular Destinations
+          </h2>
+          <p>
+            A selection of greate work friendly cities with lots to see and
+            explore
+          </p>
+        </div>
+        <div className="grid grid-cols-3 gap-4">
+          {destinations.map((destination) => (
+           <Destination destination={destination} />
+          ))}
+
+       </div>
+      </div>
+      <p className='p-5 my-14 text-center text-gray-500'>www.workcation.com</p>
     </div>
   );
 }
