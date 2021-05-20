@@ -1,1 +1,1 @@
-![alt text](./src/assets/site.jpg);
+![alt text](./src/assets/site.jpg)
