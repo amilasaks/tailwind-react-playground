@@ -2,7 +2,7 @@ import React from "react";
 
 function Destination({destination}) {
   return (
-    <div className="flex items-center bg-gray-100 rounded overflow-hidden border">
+    <div className="flex items-center bg-gray-100 rounded overflow-hidden border hover:-translate-y-2 transform transition">
       <img
         src={destination.imgUrl}
         className="h-40 w-44 flex-shrink-0 object-cover object-center"
