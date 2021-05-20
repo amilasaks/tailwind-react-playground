@@ -41,11 +41,11 @@ function App() {
               perspiciatis cumque alias veritatis vel voluptates amet. Facilis
               itaque fugit possimus quo perspiciatis quia.
             </p>
-            <a
-              href=""
-              className="bg-indigo-700 px-6 py-3 inline-block mt-5 text-white uppercase tracking-wide font-semibold hover:bg-indigo-600 hover:-translate-y-1 transform transition  text-sm rounded-md shadow-xl"
-            >
+            <a href="" className="btn btn-primary">
               Book your scape
+            </a>
+            <a href="" className="btn btn-secondary ml-2">
+              Read more
             </a>
           </div>
         </div>

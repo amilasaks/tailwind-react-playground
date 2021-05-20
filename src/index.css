@@ -1,4 +1,17 @@
 /* ./src/index.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+    .btn{
+        @apply px-6 py-3 inline-block mt-5 text-white uppercase tracking-wide font-semibold text-sm rounded-md shadow-xl
+    }
+    .btn-primary {
+        @apply bg-indigo-700  hover:bg-indigo-600 hover:-translate-y-1 transform transition text-sm rounded-md shadow-xl
+    }
+    .btn-secondary {
+        @apply bg-indigo-100 px-6 py-3 inline-block mt-5 text-indigo-800 uppercase tracking-wide font-semibold hover:bg-indigo-50 transition rounded-md shadow-xl border border-indigo-300
+    }
+    
+}
